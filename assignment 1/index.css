@@ -1,0 +1,85 @@
+body{
+    overflow: scroll;
+    min-height: 100vh;
+    min-width: 100wh;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: orange;
+    height:33px;
+}
+
+.navBar a{
+    color: aliceblue;
+    text-decoration: none; 
+    font-size: 23px;
+}
+#main-image{
+width:100%;
+height: 500px;
+}
+#para3{
+    display: flex;
+    flex-direction: row;
+    
+}
+#paragraph{
+    padding-left: 400px;
+}
+#img1{
+    height:245px;
+    width:433px;
+    padding-left:370px ;
+    padding-top: 121px;
+}
+button{
+    height: -1px;
+    background-color:darkblue;
+    color: aliceblue;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color:rgba(248, 246, 246, 0.74);
+}
+th{
+    font-size: 32px;
+}
+td{
+    font-size: 22px;
+}
+td,th{
+    border: 1px solid snow;
+    padding: 18px 10px;
+}
+#table-div{
+    padding-top: 44px;
+}
+
+#grid-images{
+    --gap:10px 10px;
+    --num-cols:5;
+    --row-height:300px;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+
+}
+#grid-images > img {
+    width: 70%;
+    padding-left: 10%;
+}
+footer{
+    background-color:orange;
+    height:40px;
+    width:100%;
+    text-align: center;
+}
+h3{
+    padding-top: 8px;
+}
